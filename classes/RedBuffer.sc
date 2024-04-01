@@ -2,12 +2,12 @@
 // load a segment from a long soundfile.  returns a buffer
 
 RedBuffer {
-	
+
 	//offset and length in percent and seconds
 	*new {|server, path, segmentOffset= 0, segmentLength= 10|
 		var sf, offsetFrames, lengthFrames;
-		sf= SoundFile.new;
-		if(sf.openRead(path).not, {
+		sf= SoundFile(path).info;
+		if(sf.isNil, {
 			("RedBuffer: file "++path++" not found").warn;
 			this.halt;
 		});
