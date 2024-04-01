@@ -3,6 +3,8 @@
 	\path:		"redGrain",
 	\summary:	"server side and language side granular synthesis with optional controller class",
 	\author:		"redFrik",
-	\helpdoc:		"RedGrain.html",
-	\url:			"http://www.fredrikolofsson.com/"
+	\schelp:	"RedGrain",
+	\url:			"https://www.fredrikolofsson.com/",
+	\since:	"2005",
+	\version:	"0.2",
 )
