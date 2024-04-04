@@ -3,7 +3,7 @@
 
 RedBuffer {
 
-	//offset and length in percent and seconds
+	//offset in percent and length in seconds
 	*new {|server, path, segmentOffset= 0, segmentLength= 10|
 		var sf, offsetFrames, lengthFrames;
 		sf= SoundFile(path).info;

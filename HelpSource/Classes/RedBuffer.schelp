@@ -4,22 +4,22 @@ CATEGORIES:: Red>redGrain
 RELATED:: Classes/RedAGrain, Classes/RedGrain, Classes/RedGrain2, Classes/RedGrainController, Classes/RedKGrain
 
 DESCRIPTION::
-This class creates buffers with segments from soundfiles.
+This class creates buffers with segments from sound files.
 
 
 CLASSMETHODS::
 
 METHOD:: new
-create, load and return a buffer
+create, load and return a LINK::Classes/Buffer::.
 
 ARGUMENT:: server
 where to create the buffer
 
 ARGUMENT:: path
-which soundfile
+a path to a sound file
 
 ARGUMENT:: segmentOffset
-in percent
+in percent (e.g. 0.5 means start loading 50% into the sound file)
 
 ARGUMENT:: segmentLength
 in seconds
